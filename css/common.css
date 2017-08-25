@@ -22,7 +22,7 @@ h1,h2,h3,h4{
 }
 
 h3::before{
-	content: url("../images/file_crc.png");
+	content: url("../image/heading_crc.gif");
 }
 
 ul, li{
@@ -124,7 +124,7 @@ p {margin:10px;}
 header{
 	width:100%;
 	padding:0px 0px 100px;
-	background-image:url("../images/header_source.png");
+	background-image:url("../image/header_source.png");
 	background-repeat:repeat;
 	background-attachment:fixed;
 	background-position:bottom;
