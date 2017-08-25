@@ -1,0 +1,161 @@
+
+/* 基本設定
+------------------------------------- */
+
+body{
+	width: 100%;
+	color: black;
+	font-family:sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.0;
+	background-color: white;
+	display: block;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1,h2,h3,h4{
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+h3::before{
+	content: url("../images/file_crc.png");
+}
+
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{ text-decoration: none;}
+
+img{ /* フルードイメージ対応 */
+	max-width: 95%;
+	height: auto;
+	margin:0px 5px;
+	border: 2px solid #008fff;
+}
+
+p {margin:10px;}
+/* クラスセレクタ・IDセレクタ
+------------------------------------- */
+#page_title{
+	padding: 80px 0px 100px;
+	margin: 0px;
+}
+
+.name{
+	font-size: 24px;
+	text-align:center;
+}
+
+.itempage{
+	width:100%;
+	text-align:center;
+	background-color:rgba(0, 0, 0, 0.2);
+}
+
+.itempage ul{
+	text-align:center;
+	padding:20px 0px 50px;
+	margin:0px;
+}
+
+.itempage ul li{
+	width:20%;
+	float:left;
+}
+
+.itempage ul li a{color:#FFF;}
+
+.clear{clear: both;}
+
+.center{ text-align: center; }
+
+.right{
+	width: 48%;
+	float: right;
+	paddingt: 0px 1%;
+}
+
+.left{
+	width: 48%;
+	float: left;
+	padding: 0px 1%;
+
+}
+
+.three-column{
+	text-align:center;
+	padding:20px 0px;
+	margin:20px 0px;
+	-webkit-column-count: 3;
+	column-count: 3;
+}
+
+.firstline{margin-top: 0;}
+
+.mamber_left{
+	width: 28%;
+	float: left;
+	padding-right: 2%;
+
+}
+
+.member_right{
+	width: 68%;
+	float: right;
+	padding-left: 2%;
+}
+
+.member_3left{
+	width: 31%;
+	float: left;
+	padding: 1%;
+	text-align:center;
+}
+
+/* ヘッダー
+------------------------------------- */
+header{
+	width:100%;
+	padding:0px 0px 100px;
+	background-image:url("../images/header_source.png");
+	background-repeat:repeat;
+	background-attachment:fixed;
+	background-position:bottom;
+	position:relative;
+	text-align:center;
+	color:#FFF;
+}
+
+/* メイン
+------------------------------------- */
+
+main{
+	width:100%;
+	margin:0px;
+	padding:20px 0;
+}
+
+/* リンク文字の色設定 */
+main a{color: #2c9795;}
+main a:link,
+main a:visited{ text-decoration: none; }
+main a:hover, main a:active{ text-decoration: underline; }
+
+/* フッター
+------------------------------------- */
+footer{
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	background-color:#999;
+	padding: 0px 0px 50px;
+}
+
+footer p{padding:40px 0px}
