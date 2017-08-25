@@ -136,10 +136,10 @@ header{
 ------------------------------------- */
 
 main{
-	width: 100%;
+	width: 95%;
 	background-color: white;
-	margin: 0px;
-	padding: 20px 0;
+	margin: 0;
+	padding: 20px 2.5%;
 }
 
 /* リンク文字の色設定 */
