@@ -20,8 +20,12 @@ h1,h2,h3,h4{
 	font-weight: normal;
 }
 
-h3::before{
-	content: url("../image/heading_crc.gif");
+h3{
+	padding: 0.25em 10px 0.25em 1.75em;
+	margin: 30px 0 5px;
+	background: url("../image/heading_crc.gif") no-repeat left center;
+	background-size: 1.5em;
+	border-bottom: 1px dotted #666;
 }
 
 ul, li{
@@ -136,10 +140,10 @@ header{
 ------------------------------------- */
 
 main{
-	width: 95%;
+	width: 96%;
 	background-color: white;
 	margin: 0;
-	padding: 20px 2.5%;
+	padding: 20px 2%;
 }
 
 /* リンク文字の色設定 */
