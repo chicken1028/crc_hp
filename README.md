@@ -17,19 +17,15 @@ crc_hp/
 ├─ member.html       # 部員紹介ページ
 ├─ about_crc.html    # コン研について
 ├─ about_web.html    # このサイトについて
-├─ template.html     # テンプレート
 ├─ README.md
 ├─ css/
-│   ├─ common.css
-│   ├─ header.css
-│   ├─ main.css
-│   └─ footer.css
+│   └─ common.css    # 全ページでの基礎となるスタイルシート
 ├─ image/            # faviconとかは直下に保存
-│   ├─ member/      # 部員のサムネ
-│   ├─ production/  # 制作物のサムネ
-│   └─ CRC/         # 部室の画像
-├─ member/           # 各部員の紹介ページをここに保存
-└─ production/       # 各制作物の紹介ページをここに保存
+│   ├─ member/       # 部員のサムネ
+│   ├─ production/   # 制作物のサムネ
+│   └─ crc/          # 部室の画像
+├─ member/           # 各部員紹介ページをここに保存
+└─ production/       # 各制作物紹介ページをここに保存
 ```
 
 # 備考
