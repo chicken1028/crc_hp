@@ -143,7 +143,7 @@ p {margin:10px;}
 .right{
 	width: 48%;
 	float: right;
-	paddingt: 0px 1%;
+	padding: 0px 1%;
 }
 
 .left{
@@ -181,6 +181,40 @@ p {margin:10px;}
 	float: left;
 	padding: 1%;
 	text-align:center;
+}
+
+@media only screen and (max-width: 599px) and (orientation:portrait){
+	.right{
+		width: 96%;
+		float: left;
+		padding: 0px 2%;
+	}
+	
+	.left{
+		width: 96%;
+		float: left;
+		padding: 0px 2%;
+	}
+	
+	.mamber_left{
+		width: 28%;
+		float: none;
+		padding-right: 2%;
+
+	}
+
+	.member_right{
+		width: 68%;
+		float: none;
+		padding-left: 2%;
+	}
+
+	.member_3left{
+		width: 46%;
+		float: left;
+		padding: 2%;
+		text-align:center;
+	}
 }
 
 /* ヘッダー
