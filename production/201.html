@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="author" content="ルチル">
-		<meta name="description" content="制作物紹介・一覧" />
-		<meta name="keywords" content="都島工業,コンピュータ研究部,コン研,コン研部,制作物紹介" />
-		<link rel="stylesheet" href="css/common.css">
-		<link rel="shortcut icon" href="image/favicon.gif" type="image/gif">
-		<link rel="apple-touch-icon" href="image/favicon.gif" type="image/gif">
+		<meta name="description" content="制作物紹介・黄昏時の刹那">
+		<meta name="keywords" content="都島工業,コンピュータ研究部,コン研,コン研部,黄昏時の刹那">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="shortcut icon" href="../image/favicon.gif" type="image/gif">
+		<link rel="apple-touch-icon" href="../image/favicon.gif" type="image/gif">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		<title>「都工コン研部」制作物紹介</title>
+		<title>「都工コン研部」production_template</title>
 	</head>
 	<!--
 								 #########   ###    ###      #####      ####   ###    ###  ####          ####  ###     ########     ###   ###     ##    ##
@@ -81,103 +81,75 @@
 		<header><!--ヘッダー-->
 			<nav class="itempage">
 				<ul>
-					<li><a href="index.html">ホーム</a></li>
-					<li><a href="production.html">制作物紹介</a></li>
-					<li><a href="about_crc.html">コン研について</a></li>
-					<li><a href="member.html">部員紹介</a></li>
-					<li><a href="about_web.html">このサイトについて</a></li>
+					<li><a href="../index.html">ホーム</a></li>
+					<li><a href="../production.html">制作物</a></li>
+					<li><a href="../about_CRC.html">コン研について</a></li>
+					<li><a href="../member.html">部員紹介</a></li>
+					<li><a href="../about_web.html">このサイトについて</a></li>
 				</ul>
 			</nav>
-			<div class="clear"></div>
-			<h1 class="center" id ="page_title">
-				制作物紹介
+			<nav class="clear"></nav>
+			<h1 class="center" id="page_title">
+				黄昏時の刹那
 			</h1>
 		</header>
 		
 		<main class="mainpage"><!--メイン-->
-			<h2>このページについて</h2>
+			<div class="mamber_left">
+				<p>
+					<img src="../image/production/201.png" alt="黄昏時の刹那">
+					<a href="https://www.dropbox.com/sh/9sg5he9lnlonran/AABb6eB6h65cqM4lN-i98tjha?dl=0">
+						<h3 class="center">ダウンロード</h3>
+					</a>
+				</p>
+			</div>
+			<div class="member_right">
+				<h1>黄昏時の刹那</h1>
+
+				<h2>概要</h2>
+				<p>
+					このアプリケーションは私がPythonで始めて自作したプログラミングで、週・日・時・分・秒・ミリ秒を変換する簡単なプログラムです。<br>
+				</p>
+				
+				<h2>使い方</h2>
+				<p>
+					左のインデックスの中に変換したい数値を入力して右のボタンを押すとその他の単位に変換されます。<br>
+				</p>
+				
+				<h2>こだわった点</h2>
+				<p>
+					地味にTabキーに対応させるのが難しかったが、そのおかげで数値入力後Tabキー->Enterで変換できます。<br>
+				</p>
+				
+				<h2>作った感想</h2>
+				<p>
+					多分、C#のWindowsFormで作ったほうが細かい修正ができるし、見た目も綺麗やけどこれはこれでいいと思う。<br>
+					ただ、Tkinterで表示するとcmd?（黒いウィンド）が一緒に表示されるので次回はそこを何とかしたいです。<br>
+				</p>
+				
+				<h2 class="center">関連制作物</h2>
+				<div class="member_3left">
+					<a href="000.html">
+						<img src="../image/production/000.png" alt="制作物名">
+						<h3 class="center">制作物名</h3>
+					</a>
+				</div>
+				<div class="member_3left">
+					<a href="000.html">
+						<img src="../image/production/000.png" alt="制作物名">
+						<h3 class="center">制作物名</h3>
+					</a>
+				</div>
+				<div class="member_3left">
+					<a href="000.html">
+						<img src="../image/production/000.png" alt="制作物名">
+						<h3 class="center">制作物名</h3>
+					</a>
+				</div>
+			</div>
+			<div class="clear"></div>
 			<p>
-				このページはコン研部員が作った制作物を一覧化しています。<br>
-				制作物のサムネ、または制作物名をクリックすると紹介ページに飛びます。
-			</p>
-			
-			<h2>カテゴリ</h2>
-			<a href="#Game">ゲーム</a><br>				<!-- 1?? -->
-			<a href="#GUI">GUIのアプリケーション</a><br><!-- 2?? -->
-			<a href="#CUI">CUIのアプリケーション</a><br><!-- 3?? -->
-			<a href="#etc">その他</a><br>				<!-- 9?? -->
-			<!-- テンプレ
-			<h2 id="#">分類</h2>
-			<div class="member_3left">
-				<a href="production/000.html">
-					<img src="image/production/000.png" alt="000">
-					<h3 class="center">000</h3>
-				</a>
-			</div>
-			<div class="clear"></div>
-			-->
-			<h2 id="Game">ゲーム</h2>
-			<div class="member_3left">
-				<a href="production/101.html">
-					<img src="image/production/101.png" alt="チェイスタイル">
-					<h3 class="center">チェイスタイル</h3>
-				</a>
-			</div>
-			<div class="member_3left">
-				<a href="production/102.html">
-					<img src="image/production/102.png" alt="102">
-					<h3 class="center">102</h3>
-				</a>
-			</div>
-			<div class="clear"></div>
-			
-			<h2 id="GUI">GUIのアプリケーション</h2>
-			<div class="member_3left">
-				<a href="production/201.html">
-					<img src="image/production/201.png" alt="黄昏時の刹那">
-					<h3 class="center">黄昏時の刹那</h3>
-				</a>
-			</div>
-			<div class="member_3left">
-				<a href="production/202.html">
-					<img src="image/production/202.png" alt="202">
-					<h3 class="center">202</h3>
-				</a>
-			</div>
-			<div class="clear"></div>
-			
-			<h2 id="CUI">CUIのアプリケーション</h2>
-			<div class="member_3left">
-				<a href="production/300.html">
-					<img src="image/production/300.png" alt="300">
-					<h3 class="center">300</h3>
-				</a>
-			</div>
-			<div class="clear"></div>
-			
-			<h2 id="etc">その他</h2>
-			<div class="member_3left">
-				<a href="about_web.html">
-					<img src="image/production/901.png" alt="大阪市立都島工業高等学校コンピュータ研究部 ～限りなく公式HPに近いサイト～">
-					<h3 class="center">大阪市立都島工業高等学校コンピュータ研究部<br>～限りなく公式HPに近いサイト～</h3>
-				</a>
-			</div>
-			<div class="member_3left">
-				<a href="production/902.html">
-					<img src="image/production/902.png" alt="デスクトップソフィーさん">
-					<h3 class="center">デスクトップソフィーさん</h3>
-				</a>
-			</div>
-			<div class="member_3left">
-				<a href="production/903.html">
-					<img src="image/production/903.png" alt="903">
-					<h3 class="center">903</h3>
-				</a>
-			</div>
-			<div class="clear"></div>
-			
-			<p>
-				公開日　　:09/03/2017<br>
+				公開日　　:09/13/2017<br>
 				<script type="text/javascript">
 					document.write('最終更新日:' + document.lastModified);
    				</script>
@@ -187,11 +159,11 @@
 		<footer><!--フッター-->
 			<nav class="itempage">
 				<ul>
-					<li><a href="index.html">ホーム</a></li>
-					<li><a href="production.html">制作物</a></li>
-					<li><a href="about_crc.html">コン研について</a></li>
-					<li><a href="member.html">部員紹介</a></li>
-					<li><a href="about_web.html">このサイトについて</a></li>
+					<li><a href="../index.html">ホーム</a></li>
+					<li><a href="../production.html">制作物</a></li>
+					<li><a href="../about_CRC.html">コン研について</a></li>
+					<li><a href="../member.html">部員紹介</a></li>
+					<li><a href="../about_web.html">このサイトについて</a></li>
 				</ul>
 			</nav>
 			<nav class="clear"></nav>
